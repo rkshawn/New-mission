@@ -1,8 +1,12 @@
 /*shared styles*/
-header{
-    font-family: 'Roboto', sans-serif;
+header {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 100px;
 }
-
+main {
+  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
 
 /*banner related styles*/
 .banner {
@@ -14,25 +18,52 @@ header{
   margin: 0 140px;
   margin-top: 50px;
 }
-.banner-text{
-    margin: 0 600px;
-    padding-top:227px;
-    color: #8a8585;
-text-align: center;
+.banner-text {
+  margin: 0 600px;
+  padding-top: 227px;
+  color: #8a8585;
+  text-align: center;
 
-font-size: 32px;
+  font-size: 32px;
 
-font-weight: 400;
-
+  font-weight: 400;
 }
-.banner-header{
-   
-    padding-left: 200px;
-    color: #8a8585;
-text-align: center;
+.banner-header {
+  padding-left: 200px;
+  color: #8a8585;
+  text-align: center;
 
-font-size: 72px;
+  font-size: 72px;
 
-font-weight: 900;
-
+  font-weight: 900;
 }
+
+/* off related styles*/
+
+.off img{
+    margin-left: 400px;
+}
+
+.off-header {
+  color: #f00;
+  text-align: center;
+  font-size: 88px;
+  font-weight: 700;
+}
+
+.off-description {
+  color: #f00;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  
+}
+
+.off-title {
+  color: #070211;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+/*party 
