@@ -1,0 +1,38 @@
+/*shared styles*/
+header{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*banner related styles*/
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: url("images/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 140px;
+  margin-top: 50px;
+}
+.banner-text{
+    margin: 0 600px;
+    padding-top:227px;
+    color: #8a8585;
+text-align: center;
+
+font-size: 32px;
+
+font-weight: 400;
+
+}
+.banner-header{
+   
+    padding-left: 200px;
+    color: #8a8585;
+text-align: center;
+
+font-size: 72px;
+
+font-weight: 900;
+
+}
