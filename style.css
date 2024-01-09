@@ -18,6 +18,7 @@ main {
   margin: 0 140px;
   margin-top: 50px;
   fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  max-width: 100%;
 }
 .banner-text {
   margin: 0 600px;
@@ -182,7 +183,6 @@ main {
   font-family: Merriweather;
   font-size: 48px;
   font-weight: 900;
-  
 }
 
 .elipse-text {
@@ -190,18 +190,92 @@ main {
   font-family: Inter;
   font-size: 20px;
   font-weight: 400;
-  
 }
-.elipse-year{
+.elipse-year {
   color: #f00;
   font-size: 48px;
   font-weight: 700;
 }
-.elipse-content-1{
+.elipse-content-1 {
   margin-left: 40px;
   margin-top: 100px;
 }
-.elipse-content-3{
+.elipse-content-3 {
   margin-right: 40px;
   margin-top: 70px;
 }
+
+/*holidays offer related styles*/
+
+.holyday-title {
+  color: #070211;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  
+}
+.holyday-header{
+  color: #070211;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-align: center;
+}
+.holyday-red{
+color: #F00;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+}
+.holyday-text{
+  color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+}
+.img-head{
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+.holyday-img-2{
+  
+        
+}
+.holyday-img-3{
+  align-items: left;
+  margin-left: 70%;
+}
+ .holyday-rect{
+width: 1320px;
+height: 229px;
+
+ }
+
+ /*portfoliio related styles*/
+
+ .portfolio-img-1{
+  display: flex;
+  gap: 24px;
+  margin-bottom: 24px;
+ }
+ .portfolio-img-2{
+  display: flex;
+  gap: 24px;
+ }
+ .portfolio img:hover{
+  border: 5px solid black;
+  border-radius: 16px;
+ }
+
+.portfolio{
+  margin-left: 140px;
+  margin-bottom: 120px;
+}
+
+
+
