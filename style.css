@@ -12,32 +12,27 @@ main {
 .banner {
   width: 100%;
   height: 100vh;
-  background-image: url("images/banner.png");
+  background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url("images/banner.png");
   background-repeat: no-repeat;
-  background-size: cover;
   margin: 0 140px;
   margin-top: 50px;
-  fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
-  max-width: 100%;
+  max-width: 1322px;
+  font-family: Merriweather;
+  padding-top: 100px;
+  margin-bottom: 100px;
 }
 .banner-text {
-  margin: 0 600px;
-  padding-top: 227px;
-  color: #8a8585;
-  text-align: center;
-
+  
+ margin-left: 530px;
+  color: white;
   font-size: 32px;
-
   font-weight: 400;
 }
 .banner-header {
-  padding-left: 200px;
-  color: #8a8585;
-  text-align: center;
-
+  color: white;
   font-size: 72px;
-
   font-weight: 900;
+  text-align: center;
 }
 
 /* off related styles*/
@@ -47,6 +42,7 @@ main {
 }
 .off {
   margin-bottom: 100px;
+  margin-left: 140px;
 }
 
 .off-header {
@@ -78,6 +74,7 @@ main {
   font-weight: 900;
   padding: 126px;
   padding-bottom: 0;
+  font-family: Merriweather;
 }
 .party-description {
   color: rgba(255, 255, 255, 0.8);
@@ -135,6 +132,8 @@ main {
   margin-left: 200px;
   border-radius: 2%;
   margin-bottom: 100px;
+  padding-top: 100px;
+  margin-top: 100px;
 }
 
 .adrs-btn {
@@ -171,6 +170,8 @@ main {
   display: flex;
   justify-content: space-between;
   margin-bottom: 100px;
+  max-width: 1320px;
+  margin-left: 60px;
 }
 
 .elipse-title {
@@ -206,6 +207,9 @@ main {
 }
 
 /*holidays offer related styles*/
+.holyday{
+  max-width: 1320px;
+}
 
 .holyday-title {
   color: #070211;
@@ -238,17 +242,19 @@ font-weight: 500;
 }
 .img-head{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   
 
 }
 .holyday-img-2{
   
-        
+        position: relative;
+        margin-top: 200px;
 }
 .holyday-img-3{
-  align-items: left;
-  margin-left: 70%;
+  margin-right: 200px;
+  margin-top: 250px;
+  
 }
  .holyday-rect{
 width: 1320px;
@@ -318,4 +324,48 @@ background: #F00;
 padding: 24px 56px;
 border: 0;
 color: white;
+}
+
+/*footer related styles*/
+
+footer{
+  max-width: 1600px;
+  background-color: #070211;
+  height: 609px;
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.footer-text h2{
+  color: #fff;
+  padding-top: 120px;
+  padding-left: 40px;
+}
+.footer-adress{
+  color: white;
+  margin-top: 160px;
+  margin-right: 275px;
+}
+.footer-up{
+  display: flex;
+  justify-content: space-between;
+}
+.social-links{
+  margin-left: 640px;
+  display: flex;
+  gap: 24px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+
+}
+.footer-down{
+ display: flex;
+ justify-content: space-between;
+ margin: 50px 140px;
+}
+.contact{
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
